@@ -6,6 +6,8 @@
 // docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
 
 // docker exec -it my-mysql mysql -uroot -ppassword -h "172.17.0.3"
+// Как получить порт "172.17.0.3" ? 
+// docker inspect my-mysql | grep IPAddress)
 
 
 package main
