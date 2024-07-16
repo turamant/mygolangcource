@@ -1,3 +1,7 @@
+// 1. Home (Hello World)
+// Первый шаг - это создание самого простого веб-сервера,
+//  который выводит "Hello, World!".
+
 package main
 
 import (
@@ -5,10 +9,10 @@ import (
 	"net/http"
 )
 
-const port=":8000"
+const port=":8001"
 
 func routeHandler(w http.ResponseWriter, r *http.Request){
-	fmt.Fprint(w, "Hello this is root page")
+	fmt.Fprint(w, "Hello world!")
 }
 
 
